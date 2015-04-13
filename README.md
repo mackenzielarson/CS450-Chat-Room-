@@ -17,17 +17,17 @@ curl https://www.npmjs.org/install.sh | sh
 
 Install express: 
 Express initializes app to be a function handler that you can supply to an HTTP server 
-$ npm install express
+* $ npm install express
 
 To populated dependencies with what we need: 
-$ npm install --save express@4.10.2
+* $ npm install --save express@4.10.2
 
 Install socket io: 
 Socket.IO is composed of two parts:
-A server that mounts on the Node.JS HTTP Server: socket.io
-A client library that loads on the browser side: socket.io-client
+* A server that mounts on the Node.JS HTTP Server: socket.io
+* A client library that loads on the browser side: socket.io-client
 
-$ npm install --save socket.io
+* $ npm install --save socket.io
 
 #To run the app
 node index.js
